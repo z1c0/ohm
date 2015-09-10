@@ -1,5 +1,34 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  h1#ohms &#8486;
+  
+  #resistor
+    div.cable
+    div.sepLeft
+    div.band1
+    div.sep1
+    div.band2
+    div.sep2
+    div.band3
+    div.sep3
+    div.band4
+    div.sep4
+    div.band5
+    div.sepRight
+    div.cable
+    
+  table#bandTable(data-bandcount=bandTable[0].length)
+    thead
+      tr
+        each cell in bandTable[0]
+          th #{cell}
+    tbody
+      - for (var i = 1; i < bandTable.length; i++) {
+      - var row = bandTable[i];
+        tr
+          each cell, j in row
+            td(class="col#{i}", data-value=cell[1], data-band=j) #{cell[0]}
+      - }   
+ block foot
+  p #[a(href="http://wolfgang-ziegler.com") Wolfgang Ziegler] #[span &#169; #{year}]
