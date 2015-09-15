@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<IconProject Version="2.0" Name="Omega">
+  <Icon Name="Omega" HasCharacterMap="false" Data="M383.481,0C595.332,-6E-06 767,156.244 767,349.509 767,501.843 659.531,631.041 510.006,678.733L511.333,678.733 511.333,719.308 634.891,719.308 634.891,690.121 656.797,690.121 656.797,767 483.568,767 483.568,766.644 483.568,638.87C592.989,595.093 671.129,482.266 671.129,349.509 671.129,178.667 542.34,40.2189 383.481,40.2189 224.66,40.2189 95.8708,178.667 95.8708,349.509 95.8708,482.266 174.011,595.093 283.432,638.87L283.432,767 114.419,767 114.419,690.121 136.328,690.121 136.328,719.308 255.667,719.308 255.667,678.377C106.844,630.685 0,501.487 0,349.509 0,156.244 171.668,-6E-06 383.481,0z" Location="Education" IsDirty="false" GroupName="Education" ExportCommand="MetroGraphicsPackage.IconCommand">
+    <Settings MainWidth="620" MainHeight="300" FlipX="1" FlipY="1" CustomSize="256" IconShape="Square" BackgroundBrush="#FF30C9F4" ContentWidth="254" ContentHeight="254" Angle="0" IsRect="true" SizeIndex="7" CustomWidth="620" CustomHeight="300" IsLinked="false" Padding="23" MaximumPadding="92" SldierValueChanged="MetroGraphicsPackage.IconCommand" IconBrush="#FFFFFFFF" FontFamily="Webdings" Character="&gt;" FlipCommand="MetroGraphicsPackage.IconCommand" IsBackgroundVisible="true" />
+  </Icon>
+</IconProject>
